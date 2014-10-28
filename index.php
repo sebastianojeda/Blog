@@ -5,8 +5,9 @@
 </head>
 <body>
 <?php
-echo 'This is my first blog';
 
+	require_once(__DIR__ . "/controller/create-db.php");
+	
 
 ?>
 
