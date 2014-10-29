@@ -25,6 +25,7 @@
 			echo "successfully created database" . $database;
 		}
 	}
+	//this else statement is echoing a string
 	else{
 		echo "database has already been created.";
 	}
