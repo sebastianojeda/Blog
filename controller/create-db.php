@@ -29,5 +29,12 @@
 	else{
 		echo "database has already been created.";
 	}
+     //this is a query variable that is creating a table.
+	//This table will hold an id, strings, and post text.
+	$query = $connection->query("CREATE TABLE posts ("
+		. "id int(11) NOT NULL AUTO_INCREMENT,"
+		. "title varchar(255) NOT NULL,"
+		. "post text NOT NULL,"
+		. "PRIMARY KEY (id)");
 
 	$connection->close();
