@@ -8,7 +8,7 @@
 	$connection = new mysqli($host, $username, $password);
 
 	if($connection->connect_error){
-		die("Error: " . $connection->connect_error);
+		die("<p>Error: " . $connection->connect_error) ."</p>";
 
 	}
 	
@@ -22,12 +22,12 @@
 		$query = $connection->query("CREATE DATABASE $database");
 
 		if($query){
-			echo "successfully created database" . $database;
+			echo "<p>successfully created database" . $database. "</p>";
 		}
 	}
 	//this else statement is echoing a string
 	else{
-		echo "database has already been created.";
+		echo "<p>database has already been created.</p>";
 	}
      //this is a query variable that is creating a table.
 	//This table will hold an id, strings, and post text.
@@ -35,6 +35,12 @@
 		. "id int(11) NOT NULL AUTO_INCREMENT,"
 		. "title varchar(255) NOT NULL,"
 		. "post text NOT NULL,"
-		. "PRIMARY KEY (id)");
+		. "PRIMARY KEY (id))");
+	
+	if($query){
+		echo "<p>successful</p>";
+	}else{
+		echo "<p>$connection->error</p>";
+	}
 
 	$connection->close();
