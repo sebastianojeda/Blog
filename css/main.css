@@ -1,0 +1,8 @@
+body{
+	background-color: blue;
+}
+
+@media (max-width: 320px){
+	body{background: blue;}
+
+}
