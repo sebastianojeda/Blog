@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__ . "/../model/database.php");
+require_once(__DIR__ . "/../model/config.php");
 // this conection variable is conecting me to my database file
 	$connection = new mysqli($host, $username, $password, $database);
 

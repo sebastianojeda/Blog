@@ -1,7 +1,7 @@
 <?php
     //The require_once statement is identical to require except PHP will 
    //check if the file has already nbeen included, and if so, not include (require) it again
-	require_once(__DIR__ . "/../model/database.php");
+	require_once(__DIR__ . "/../model/config.php");
     
     //This connectoin varable takes my variables from my 
     //database file and connects those files to my create-db file.

@@ -2,6 +2,29 @@ body{
 	background-color: blue;
 }
 
+/* Slide 2 */
+#slide-2 .bcg {background-color: green}
+#slide-2 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+#slide-2 h2 {
+    position: fixed;
+    top: 70%;
+}
+
+/* Slide 4 */
+#slide-4 .bcg {background-color: white;}
+#slide-4 .hsContent {
+    margin-left: -450px;
+    position: fixed;
+    top: 250px;
+}
+#slide-4 h2 {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
 @media (max-width: 320px) {
 	body {
 		background-color: red;
