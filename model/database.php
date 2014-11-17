@@ -13,8 +13,29 @@ class Database{
 	private $username;
 	private $password;
 	private $Database;
-	function __construct()
-	{
-		# code...
+
+	// _construct will search for the 
+	//old-style constructor function, by the name of the class
+	//_construct defines your constructuors 
+	//_constructuors allow us to build an object
+	public function __construct($host, $username, $password, $database){
+		$this->host = $host;
+		$this->username = $username;
+		$this->passwpord = $password;
+		$this->database = $database;
+	}
+
+	public function openConecction(){
+
+	}
+
+	public function closeConnection(){
+
+
+	}
+
+	public function query($string){
+		
 	}
 }
+
