@@ -8,3 +8,20 @@
 	<title></title>
 </head>
 <body>
+		<!--This commented out navbar is being savedfor later-->
+<!--
+	 <div class="stuck-head">
+        <a class="nav-btn" id="nav-open" href="#sidebar"menu><span>menu</span></a>
+    </div>
+    <div id="leonardo">
+    <div id="sidebar">
+          <nav class="navigation">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="project.html">Project</a></li>
+               <li><a href="">Image Gallery</a></li>
+               <li><a href="">My Resume</a></li>
+            </ul>
+          </nav>
+    </div>
+-->
