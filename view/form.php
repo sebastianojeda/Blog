@@ -1,7 +1,16 @@
 <!--This require_once is conecting my config.php to my form.php-->
 <?php
 	require_once(__DIR__ . "/../model/config.php");
+	require_once(__DIR__ . "/../controller/login-varify.php");
+
+	if(!authentication()){
+		//this header is sending the non loged in users 
+		//back to index.php
+		header("location: " . $path . "index.php");
+		die();
+	}
 ?>
+
 
 <h1>Create Blog Post</h1>
                             <!--This php code is taking me to my create-post.php 

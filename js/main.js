@@ -1,33 +1,13 @@
 //readmore tag
-$('article').readmore({
+$('.content-box-1').readmore({
   speed: 75,
-  maxHeight: 500
+  maxHeight: 100
 });
 
-$('article').readmore({
+$('.content-box-1').readmore({
   afterToggle: function(trigger, element, expanded) {
     if(! expanded) { // The "Close" link was clicked
       $('html, body').animate( { scrollTop: element.offset().top }, {duration: 100 } );
     }
   }
-});
-
-
-//All of this code goes to my hamburger.//
-(function(){
-    var $mainWrapper = $("#main-wrapper");
-
-    $('.menu-icon').click(function(){
-        $(this).toggleClass('active');
-        $mainWrapper.toggleClass('active');
-    });
-
-
-})();
-
-
-$(".nav-btn").click(function(){
-      $("#sidebar").toggleClass("active");
-      $("#content").toggleClass("active");
-      $(".nav-btn").toggleClass("active");
 });
