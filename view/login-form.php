@@ -19,7 +19,7 @@
 	</div>
 
 	<div>
-		<button type="submit">Submit</button>
+	<button type="button" class="btn btn-default navbar-btn">Sign in</button>
 	</div>
 
 </form>
