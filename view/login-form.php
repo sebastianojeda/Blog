@@ -2,7 +2,7 @@
 <?php
 	require_once(__DIR__ . "/../model/config.php");
 ?>
-	<h1>Login</h1>
+	<h1 class="title">Login</h1>
 
 	<!--This login form allows my users to login-->
 	<!--after they sign up.-->
@@ -19,7 +19,7 @@
 	</div>
 
 	<div>
-	<button type="button" class="btn btn-default navbar-btn">Sign in</button>
+	<button type="submit" class="btn btn-default navbar-btn">Sign in</button>
 	</div>
 
 </form>

@@ -16,7 +16,7 @@
                             <!--This php code is taking me to my create-post.php 
                             file so that when i submit something on my blog that 
                             submition is stored in my create-post.php file-->
-<form method="post" action="<?php echo $path . "controller/create-post.php";?>">
+<form class="content" method="post" action="<?php echo $path . "controller/create-post.php";?>">
 	<div>
 		<label for="title">Title:</label>
 		<input	type="" name="title"/>

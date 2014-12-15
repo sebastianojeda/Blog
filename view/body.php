@@ -11,14 +11,14 @@
 
    
 <!--This part of code is what creates the SPA-->
-
-<div class="row">
-      <?php
-            require_once(__DIR__ . "/../controller/read-post.php");
-          ?>
-          
+<div class="content-box">
+  <div class="row">
+        <?php
+              require_once(__DIR__ . "/../controller/read-post.php");
+            ?>
+            
+  </div>
 </div>
-
 
   
     <!--This is the end of the SPA-->

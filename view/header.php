@@ -19,17 +19,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="index.php">Home Button</a>
+
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Sign Up <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Log in</a></li>
-        
- 
-      </ul>
+     </ul>
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
@@ -37,7 +31,13 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+         <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="register.php">Sign Up <span class="sr-only">(current)</span></a></li>
+          <li><a href="post.php">Post</a></li>
+        <li><a href="login.php">Log in</a></li>
+        <li><a href="logout-user.php">Log Out</a></li>
  
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -45,9 +45,3 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
- <button type="button" class="btn btn-default navbar-btn"></button> 
-  <button type="button" class="btn btn-default navbar-btn">Sign Up</button> 
-   <button type="button" class="btn btn-default navbar-btn">Sign in</button> 
-    <button type="button" class="btn btn-default navbar-btn">Log Out</button> 
-</nav> -->
