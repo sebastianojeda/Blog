@@ -37,7 +37,7 @@
         <li class="active"><a href="register.php">Sign Up <span class="sr-only">(current)</span></a></li>
           <li><a href="post.php">Post</a></li>
         <li><a href="login.php">Log in</a></li>
-        <li><a href="logout-user.php">Log Out</a></li>
+        <li><a href="controller/logout-user.php">Log Out</a></li>
  
       </ul>
     </div><!-- /.navbar-collapse -->
