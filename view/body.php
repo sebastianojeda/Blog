@@ -10,7 +10,7 @@
      
 
    
-<!--This part of code is what creates the SPA-->
+
 <div class="content-box">
   <div class="row">
         <?php
@@ -21,5 +21,8 @@
   
 </div>
 
+
+
+
   
-    <!--This is the end of the SPA-->
+
